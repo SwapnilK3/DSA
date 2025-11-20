@@ -1,6 +1,5 @@
-#include <iostream>
-using namespace std;
-#define co cout
+#include "./base.h"
+
 int sumation(int n){
     int i = 1;
     int sum=0;
@@ -13,9 +12,9 @@ int sumation(int n){
 int main(){
     int sum;
     int n;
-    co << "Add Number for having Summation value:";
-    cin >> n;
+    co "Add Number for having Summation value:";
+    cin n;
     sum = sumation(n);
-    co << sum;
+    co sum;
     return 0;
 }
